@@ -1,0 +1,6 @@
+# Mac os
+.DS_Store
+
+# extension zip
+*.zip
+*.crx
