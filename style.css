@@ -1,0 +1,69 @@
+body {
+    min-width: 450px;
+    min-height: 230px;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+#head {
+    text-align: center;
+}
+
+h4 {
+    color: #2d2251;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #2d2251;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#more {
+    float: right;
+    text-decoration: none;
+    color: #2d2251;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    /* For Safari 3.1 to 6.0 */
+    /*-webkit-transition-property: font-weight;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    /*-webkit-transition-delay: 1s;*/
+    /* Standard syntax */
+    /*transition-property: font-weight;
+    transition-duration: 1s;
+    transition-timing-function: linear;*/*/
+    /*transition-delay: 1s;*/
+}
+
+#more:hover {
+    font-weight: bolder;
+    color: #2d2235;
+}
+
+#date {
+    padding-top: 4px;
+    color: #9d9d9d;
+}
+
+#date:hover {
+    color: #4d4d4d;
+}
+
+#head {
+    box-shadow: 1px 1px 10px #aaa;
+}
+
+ul {
+    box-shadow: 1px 1px 1px #aaa;
+    margin: 0;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    list-style: none;
+}
