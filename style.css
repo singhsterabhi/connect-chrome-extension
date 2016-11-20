@@ -8,6 +8,10 @@ body {
 
 #head {
     text-align: center;
+    position: relative;
+    background: linear-gradient( rgba(24, 15, 54, 0.85), rgba(24, 15, 54, 0.85)), url('ab-1.jpg');
+
+    background-size: cover;
 }
 
 h4 {
@@ -22,18 +26,17 @@ h2 {
 }
 
 #more {
-    float: right;
-    text-decoration: none;
-    color: #2d2251;
-    font-size: 15px;
+    background: linear-gradient( rgba(24, 15, 54, 0.85), rgba(24, 15, 54, 0.85)), url('ab-1.jpg');
+    background-position: center;
     padding-top: 10px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    height: 30px
 }
 
-#more:hover {
-    font-weight: bolder;
-    color: #2d2235;
+#web {
+    color: #a493d1;
+    float: right;
+    font-size: 15px;
 }
 
 #date {
@@ -50,7 +53,7 @@ h2 {
 }
 
 ul {
-    box-shadow: 1px 1px 1px #888;
+    box-shadow: 2px 2px 1px #888;
     font-size: 13px;
     margin: 0;
     padding-left: 25px;
